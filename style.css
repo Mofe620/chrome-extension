@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    display: block;
+    height: 2em;
+    width: 12em;
+    border: 1px solid #a44eac;
+    margin-bottom: 0.5em;
+    transition: ease-in-out width 10s;
+}
+button {
+    background-color: #a44eac;
+    color: white;
+    padding: 0.5em;
+    border-style: none;
+    margin-bottom: 0.5em;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+ul a {
+    color: #a44eac;
+}
+li {
+    margin-bottom: 0.5em;
+}

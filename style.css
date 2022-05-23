@@ -4,17 +4,25 @@ body {
 input {
     display: block;
     height: 2em;
-    width: 12em;
+    width: 15em;
     border: 1px solid #a44eac;
     margin-bottom: 0.5em;
     transition: ease-in-out width 10s;
+}
+input:focus {
+	outline: none;
 }
 button {
     background-color: #a44eac;
     color: white;
     padding: 0.5em;
-    border-style: none;
+    width: 7.5em;
+    border: 1px solid #a44eac;
     margin-bottom: 0.5em;
+}
+#del-btn {
+    background-color: white;
+    color: #a44eac;
 }
 ul {
     list-style: none;
